@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			.small{
+				transform: scale(0.5);
+				margin-top: -120px;
+			}
+	    .one{
+	    	width: 500px;
+	    	height: 500px;
+	    	border:  3px solid black;
+	    	border-radius: 250px;
+	    	background-color:#0094dc;          /*这里是整个脸*/
+	    	position: relative;        /*  后添加的*/
+	   
+	    }
+	    .two{
+	    	width: 400px;
+	    	height: 400px;
+	    	border:3px solid black;
+	    	border-radius: 200px;
+	    	position: absolute;
+	    	bottom: 0px;
+	    	right:49px;
+	    	background-color: white; 
+	    }
+	    .three{
+	    	width: 77px;
+	    	height: 116px;
+	    	border: 3px solid black;
+	    	border-radius: 101px;
+	    	position: absolute;
+	    	right:215px;
+	    	bottom: 335px;
+	    	background-color: white;
+	    }
+	    .four{
+	    	width: 77px;
+	    	height: 116px;
+	    	border: 3px solid black;
+	    	border-radius: 101px;
+	    	position: absolute;
+	    	bottom: 335px;
+	    	left:183px;
+	    	background-color: white;
+	    }
+		.five{
+			width: 40px;
+			height: 40px;
+			border: 3px solid black;
+			background-color: red;
+			border-radius: 25px;
+			position: absolute;
+			right: 193px;
+			bottom: 304px;
+		}
+		.sex{
+			width: 10px;
+			height: 10px;
+			border: 3px solid black;
+			border-radius: 10px;
+			background-color: white;
+			position: absolute;
+			right: 17px;
+			bottom: 20px;
+		}
+		.seven{
+			width: 29px;
+			height: 28px;
+			border: 3px solid black;
+			border-radius: 29px;
+			background-color: black;
+			position: absolute;
+			right: 20px;
+			bottom: 40px;
+		}
+		.eight{
+			width: 29px;
+			height: 28px;
+			border: 3px solid black;
+			border-radius: 29px;
+			background-color: black;
+			position: absolute;
+			right: 20px;
+			bottom: 40px;
+		}.nine{
+			width: 3px;
+			height: 120px;
+			background-color: black;
+			border: 1px solid black;
+			position: absolute;
+			left: 180px;
+			 top: 97px;
+		}
+		.ten{
+			width: 150px;
+			height: 10px;
+			border-bottom: 3px solid black;
+			transform:rotate(15deg);
+			position: absolute;
+			right: 230px;
+			top: 106px;
+		}
+		.eleven{
+			width: 150px;
+			height: 10px;
+			border-bottom: 3px solid black;
+			/*transform:rotate(45deg);*/
+			position: absolute;
+			left: 17px;
+			top: 143px;
+		}
+		.twelte{
+			width: 150px;
+			height: 10px;
+			border-bottom: 3px solid black;
+			transform:rotate(170deg);
+			position: absolute;
+			left: 19px;
+			top: 187px;
+		}
+		.thirteen{
+			width: 150px;
+			height: 10px;
+			border-bottom: 3px solid black;
+			transform:rotate(165deg);
+			position: absolute;
+			left: 196px;
+			top: 115px;
+		}
+		.fourteen{
+			width: 150px;
+			height: 10px;
+			border-bottom: 3px solid black;
+			/*transform:rotate(55deg);*/
+			position: absolute;
+			left: 199px;
+			top: 143px;
+		}
+		.fifteen{
+			width: 150px;
+			height: 10px;
+			border-bottom: 3px solid black;
+			transform:rotate(12deg);
+			position: absolute;
+			left: 194px;
+			top: 181px;
+		}
+		.sexteen{
+			width: 252px;
+			height: 130px;
+			 border: 3px solid black;
+			 border-radius: 0 0 50% 50%/0 0 100% 100% ;
+			 background-color: red;
+			 position: absolute;
+			 bottom: 45px;
+			 right: 83px;
+		}
+		.eighteen{
+			width: 150px;
+			height: 63px;
+			 border: 3px solid black;
+			 border-radius: 25% 25% 50% 50%;
+			 background-color:orange;
+			 position: absolute;
+			 bottom: 0px;
+			 right: 46px;
+		}
+		.ninteen{
+			width: 360px;
+			height: 30px;
+			background-color: red;
+			border: 3px solid black;
+			position: absolute;
+			bottom: -3px;
+			right: 60px;
+			border-radius: 10px;
+		}
+		.twenty{
+			width: 120px;
+			height: 120px;
+			border: 3px solid black;
+			border-radius: 67px;
+			background-color: yellow;
+			position: absolute;
+			bottom: -101px;
+			right: 188px;
+			z-index: 10;
+		}
+		.twenty-one{
+			width: 119px;
+			height: 10px;
+			border: 3px solid black;
+			background-color: yellow;
+			border-radius: 5px;
+			position: absolute;
+			bottom: 56px;
+			right: -3px;
+		}
+		.twenty-two{
+			width: 25px;
+			height: 25px;
+			border: 3px solid black;
+			background-color: gray;
+			border-radius: 12.5px;
+			position: absolute;
+			bottom: 31px;
+			right: 45px;
+		}
+		.twenty-three{
+			width: 1px;
+			height: 33px;
+			border:  3px solid black;
+			background-color: black;
+			border-radius: 5px;
+			position: absolute;
+			bottom: -2px;
+			right: 57px;
+		}
+		.twenty-four{   /*   这里是身体*/
+			width: 350px;
+			height: 350px;
+			background-color:#0094dc;
+			position: absolute;
+			bottom:-350px;
+			left: 82px;
+			border-radius:76px;	
+			border: 3px solid black;
+			z-index: 3;
+		}
+		.twenty-five{
+			width: 322px;
+			height: 257px;
+			background-color: white;
+			border-radius: 50%;
+			border: 3px solid black;
+			position: absolute;
+			top: 22px;
+			left: 9px;
+		}
+		.twenty-six{
+			width: 280px;
+			height: 121px;
+			border: 3px solid black;
+			border-radius: 0 0 50% 50%/0 0 100% 100%;
+			position: absolute;
+			top: 105px;
+			left: 21px;
+		}
+		.twenty-seven{
+			width: 65px;
+			height: 65px;
+			border: 3px solid black;
+			border-radius: 52%;
+			position: absolute;
+			bottom: -378px;
+			left: 224px;
+			background-color: white;
+			border-bottom: none;
+			border-left: none;
+			border-right: none;
+			z-index: 5;
+		}
+		.twenty-eight{
+			width: 165px;
+			height: 97px;
+			border: 3px solid black;
+			border-radius: 50%;
+			background-color: #FFFFFF;
+			border-bottom-left-radius: 92px;
+			border-top-left-radius: 71px;
+			position: absolute;
+			bottom: -418px;
+			left:46px;
+		}
+		.twenty-nine{
+			width: 165px;
+			height: 97px;
+			border: 3px solid black;
+			border-radius: 50%;
+			background-color: #FFFFFF;
+			border-bottom-right-radius: 92px;
+			border-top-right-radius: 71px;
+			position: absolute;
+			bottom: -416px;
+			left: 293px;
+		}
+		.thirty{
+			width: 200px;
+			height: 60px;
+			border: 3px solid black;
+			border-radius: 25px;
+			background-color: #0094dc;
+			transform: rotate(155deg);
+			position: absolute;
+			top: 556px;
+			left: -60px;
+			border-left: none;	
+		}
+		.thirty-one{
+			width: 100px;
+			height: 100px;
+			border:  3px solid black;
+			border-radius: 50%;
+			background-color: white;
+			position: absolute;
+			left: -101px;
+			bottom: -187px;
+			z-index: 5;
+		}
+		.thirty-three{
+			width: 299px;
+			height: 60px;
+			border:  3px solid black;
+			border-radius: 25px;
+			background-color:#0094bc;
+			transform: rotate(135deg);
+			position: absolute;
+			top: 435px;
+			left: 320px;
+		}
+		.thirty-four{
+			width: 100px;
+			height: 100px;
+			border:  3px solid black;
+			border-radius: 50%;
+			background-color: white;
+			position: absolute;
+			left: 523px;
+			bottom: 90px;
+			z-index: 5;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="small">
+		<div class="one">
+			<div class="two">
+				<div class="ten"></div>
+				<div class="eleven"></div>
+				<div class="twelte"></div>
+				<div class="thirteen"></div>
+				<div class="fourteen"></div>
+				<div class="fifteen"></div>
+				<div class="sexteen">
+					<div class="eighteen"></div>
+				</div>
+				<div class="nine"></div>
+				<div class="five">
+					<div class="sex">
+						
+					</div>
+				</div>
+				<div class="three">
+					<div class="seven"></div>
+				</div>
+				<div class="four">
+					<div class="eight"></div>
+				</div>	
+		</div>
+		<div class="ninteen"></div>
+		<div class="twenty">
+			<div class="twenty-one"></div>
+			<div class="twenty-two"></div>
+			<div class="twenty-three"></div>
+		</div>
+		</div>
+		<div class="twenty-four">
+			<div class="twenty-five">
+				<div class="twenty-six"></div>
+			</div>
+		</div>
+		<div class="twenty-seven"></div>
+		<div class="twenty-eight"></div>
+		<div class="twenty-nine"></div>
+		<div class="thirty"></div>
+		<div class="thirty-one"></div>
+		<div class="thirty-three"></div>
+		<div class="thirty-four"></div>
+		</div>
+		
+	</body>
+</html>
