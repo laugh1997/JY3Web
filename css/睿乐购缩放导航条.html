@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			.subject{
+				width: 200px;
+				height: 200px;
+				/*border: 1px solid black;*/
+				box-shadow: 5px 1px 1px gainsboro;
+				position: absolute;
+				left: 30px;
+				top: 0;
+			}
+			.smallsubject{
+				width: 50px;
+				height: 30px;
+				position: absolute;
+				left: 20px;	
+				bottom: 15px;
+			}
+			.box2{
+				width: 200px;
+				height: 60px;
+				position: absolute;
+				bottom: 0;
+				right: 0;
+			}
+			.box3{
+				width: 300px;
+				height: 700px;
+				/*border: 1px solid red;*/
+				position: absolute;
+				top: 60px;
+			}
+			.title{
+				width: 80px;
+				height: 30px;
+				font-size: 20px;
+				color:#ccc;
+				font-family: PingFangBold;  /*字体的样式*/
+				position: absolute;
+				right: 15px;
+				bottom: 15px;
+			}
+			
+			.photo{
+				display: block;
+				margin: 40px auto 15px;
+				background-size: contain;
+			}
+			a{
+				display: block;
+				text-decoration: none;
+			}
+			ul{
+				list-style: none;
+				padding: 0;
+				margin: 0;
+			}
+			li{
+				width: 270px;
+				height: 58px;
+				background-color: #3a3a3a;
+				border-bottom-color: rgb(37, 37, 37);  /*下边框颜色*/
+				border-bottom-width:1px;
+				border-bottom-style: solid;
+				color: white;
+				line-height: 58px;      /*设置字体上下水平居中*/
+				box-sizing: border-box;
+				display: none; 
+				text-indent: 20px;
+				/*这个display:none功能是,让li标签隐藏不显示,后面设置当鼠标悬停的时候在显示,
+				后面只要把这个display转化为一个可以显示的就可以,例如display:block;不是隐藏就可以*/
+			}
+			.box2:hover li{
+				display: block;   /*当鼠标移动在下面小div的时候把上面隐藏的display:none属性改为可见的display：block*/
+				
+			}
+			li:hover{
+				background-color: red;   /*当鼠标悬停在li上的时候,背景颜色变为红色*/
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="subject">
+			<img src="../img/10.7515715.svg" height="67px" width="140px"/ class="photo">
+			<div class="box2">
+				<div class="box3">
+				<ul>
+					<a href="#"><li>手机数码</li></a>
+					<a href="#"><li>笔记本电脑</li></a>
+					<a href="#"><li>平板电脑</li></a>
+					<a href="#"><li>超市</li></a>
+					<a href="#"><li>生鲜</li></a>
+					<a href="#"><li>男装</li></a>
+					<a href="#"><li>家电</li></a>
+					<a href="#"><li>女装</li></a>
+					<a href="#"><li>数码相机</li></a>
+				</ul>
+				</div>
+			<div class="title"><span>产品分类</span></div>
+			<div class="smallsubject"><img src="../img/三条.svg"width="30px" height="30px"/></div>
+			</div>
+		</div>
+	</body>
+</html>
