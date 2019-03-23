@@ -1,0 +1,295 @@
+  *{           /*去掉浏览器自带的内外边距*/
+				margin: 0;
+				padding: 0;
+			}
+			a{
+				text-decoration: none;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+			}
+			#container{    /* 这里是最下面的div*/
+				width: 100%;
+				height: 80px;
+				display: flex;
+				position: fixed;
+				bottom: 0;
+				background-color:#F4F4F4;
+				justify-content: center;
+				align-items: center;
+			}
+			.subDiv{   /*最下面div里面四个按钮*/
+				width: 25%;
+				height: 70px;
+				text-align: center;
+			}
+			img{
+				height: 30px;
+				width: 30px;
+			}
+			#container span{
+				display: block;
+			}
+			 /*到这里为止下面的任务拦设置结束*/
+								/*从这里开始是最上面信号拦的设置*/			
+			#container4{        
+				width: 100%;
+				height: 30px;
+				background-color:black;
+				display: flex;
+				justify-content: space-between;
+				position: fixed;
+				top: 0px;
+				z-index: 2;
+				color: white;
+			}
+			#left ul li{
+				width: 5px;
+				height: 5px;
+				border: 1px solid white;
+				border-radius: 50%;
+				display: flex;
+				margin-left:3px;
+			}
+			.havesin{                /* 这里是有信号的*/
+				background-color: white;
+			}
+			.nothavesin{					/*这里是无信号的*/
+				border: 1px solid white;
+			}
+			#center{               /*  这里是信号栏中间时间*/
+				flex: 0.2;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			#right{						/*这里是信号栏上面信号栏中最右边的*/
+				flex: 0.4;
+				display: flex;
+				justify-content: flex-end;
+				align-items: center;
+			}
+			#right span {
+				margin: 0 5px;
+			}
+			#right img{
+				width: 25px;
+				height: 25px;
+			}
+			#left ul{					/*这里是上面信号栏最左边的*/
+				display: flex;
+			}
+			#left{
+				flex: 0.4;
+				display: flex;
+				align-items: center;
+				margin-left: 10px;
+			    }
+			#left span{
+				font-size: 12px;
+				
+			}
+			#left img{
+				width: 23px;
+				height: 23px;
+			    }
+	        #container2{       /* 这是放照相机的盒子*/
+				width: 100%;
+				height: 40px;
+				margin-top: 30px;
+				display: flex;
+				align-items: center;
+				justify-content: flex-end;
+			    }
+			    img{
+			    	width: 30px;
+			    	height: 30px;
+			    	margin-right: 10px;
+			    	
+			    }
+				#yin-Div{
+					height: 80px;
+					width: 100%;
+					background-color: white;
+					display: flex;
+				}
+				#yin1{
+					display: flex;
+					height: 80px;
+					flex: 0.2;
+					margin-left: 7px;
+					align-items: center;
+				}
+				#yin1 img{
+					width: 70px;
+					height: 70px;
+				}
+				#yin2{
+					display: flex;
+					height: 80px;
+					flex: 0.8;
+					flex-wrap: wrap;
+				}
+				#xiaoyin1{
+					width: 100%;
+					height: 40px;
+					display: flex;
+					align-items: center;
+					font-size: 25px;
+					
+				}
+				#xiaoyin2{
+					width: 100%;
+					height: 40px;
+					display: flex;
+				}
+				#hongCheng{
+					flex: 0.7;
+					height: 40px;
+					display: flex;
+					font-size: 17px;
+					align-items: center;
+				}
+				#hongCheng1{
+					flex: 0.1;
+					height: 40px;
+					display: flex;
+					align-items: center;
+				}
+				#hongCheng1 img{
+					width: 22px;
+					height: 22px;
+				}
+				#hongCheng2{
+					display: flex;
+					flex: 0.2;
+					height: 40px;
+					justify-content: center;
+					align-items: center;
+				}
+				#hongCheng2 img{
+					width: 25px;
+					height: 25px;
+				}
+				.blank3{
+					width: 100%;
+					height: 30px;
+					background-color: white;
+				}
+				.grayBlank{
+					width: 100%;
+					height: 10px;
+					background-color: #F4F4F4;
+				}
+			
+			
+			.payRmb{
+					width: 100%;
+					height: 50px;
+					display: flex;
+				}
+				#pay1{
+					width: 50px;
+			    	height: 50px;
+			    	display: flex;
+			    	justify-content: center;
+			    	align-items: center;
+			    	flex: 0.2;
+				}
+				#pay1 img{
+					width: 40px;
+					height: 40px;
+				}
+				#pay2{
+					flex: 0.2;
+					display: flex;
+					font-size: 19px;
+					align-items: center;
+				}
+				#pay3{
+					display: flex;
+					flex: 0.6;
+					align-items: center;
+					justify-content: flex-end;
+				}
+				.bigGray{
+					width: 100%;
+					height:77px;
+					background-color: #F4F4F4;
+				}
+				
+				#pay4{
+					width: 50px;
+			    	height: 50px;
+			    	display: flex;
+			    	justify-content: center;
+			    	align-items: center;
+			    	flex: 0.2;
+				}
+				#pay5{
+					flex: 0.2;
+					display: flex;
+					font-size: 19px;
+					align-items: center;
+					border-bottom: 1px solid #AFAFAD;
+				}
+				#pay6{
+					display: flex;
+					flex: 0.6;
+					align-items: center;
+					justify-content: flex-end;
+					border-bottom: 1px solid #AFAFAD;
+				}
+				#pay7{
+					width: 50px;
+			    	height: 50px;
+			    	display: flex;
+			    	justify-content: center;
+			    	align-items: center;
+			    	flex: 0.2;
+				}
+				#pay8{
+					flex: 0.2;
+					display: flex;
+					font-size: 19px;
+					align-items: center;
+					border-bottom: 1px solid #AFAFAD;
+				}
+				#pay9{
+					display: flex;
+					flex: 0.6;
+					align-items: center;
+					justify-content: flex-end;
+					border-bottom: 1px solid #AFAFAD;
+				}
+				#pay10{
+					width: 50px;
+			    	height: 50px;
+			    	display: flex;
+			    	justify-content: center;
+			    	align-items: center;
+			    	flex: 0.2;
+				}
+				#pay11{
+					flex: 0.2;
+					display: flex;
+					font-size: 19px;
+					align-items: center;
+					border-bottom: 1px solid #AFAFAD;
+				}
+				#pay12{
+					display: flex;
+					flex: 0.6;
+					align-items: center;
+					justify-content: flex-end;
+					border-bottom: 1px solid #AFAFAD;
+				}
+				 
+				
+				
+				
+				
+				
+				
+				
+				
