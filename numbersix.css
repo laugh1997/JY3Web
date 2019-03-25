@@ -1,0 +1,250 @@
+*{           /*去掉浏览器自带的内外边距*/
+				margin: 0;
+				padding: 0;
+			}
+			a{
+				text-decoration: none;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+			}
+			body{
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				background-color: #dbd8d847;
+			}
+			#container{    /* 这里是最下面的div*/
+				width: 100%;
+				height: 80px;
+				display: flex;
+				position: fixed;
+				bottom: 0;
+				background-color:white;
+				justify-content: center;
+				align-items: center;
+			}
+			.subDiv{   /*最下面div里面四个按钮*/
+				width: 25%;
+				height: 70px;
+				text-align: center;
+			}
+			img{
+				height: 30px;
+				width: 30px;
+			}
+			#container span{
+				display: block;
+			}
+			 /*到这里为止下面的任务拦设置结束*/
+								/*从这里开始是最上面信号拦的设置*/			
+			#container4{        
+				width: 100%;
+				height: 30px;
+				background-color: black;
+				display: flex;
+				justify-content: space-between;
+				position: fixed;
+				top: 0px;
+				z-index: 2;
+				color: white;
+			}
+			#left ul li{
+				width: 5px;
+				height: 5px;
+				border: 1px solid white;
+				border-radius: 50%;
+				display: flex;
+				margin-left:3px;
+			}
+			.havesin{                /* 这里是有信号的*/
+				background-color: white;
+			}
+			.nothavesin{					/*这里是无信号的*/
+				border: 1px solid white;
+			}
+			#center{               /*  这里是信号栏中间时间*/
+				flex: 0.2;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			#right{						/*这里是信号栏上面信号栏中最右边的*/
+				flex: 0.4;
+				display: flex;
+				justify-content: flex-end;
+				align-items: center;
+			}
+			#right span {
+				margin: 0 5px;
+			}
+			#right img{
+				width: 25px;
+				height: 25px;
+			}
+			#left ul{					/*这里是上面信号栏最左边的*/
+				display: flex;
+			}
+			#left{
+				flex: 0.4;
+				display: flex;
+				align-items: center;
+				margin-left: 10px;
+			    }
+			#left span{
+				font-size: 12px;
+				
+			}
+			#left img{
+				width: 23px;
+				height: 23px;
+			    }
+			    
+			    
+			    #container2{        /*这里是上面带有加号图片最大的div*/
+				width: 100%;
+				height: 55px;
+				/*border: 1px solid red;*/
+				display: flex;
+				justify-content: space-between;
+				background-color:#787878;
+				align-items: center;
+				position: fixed;
+				top: 30px;
+			    }
+			.subDiv2{       /*  上面div里面的 加号 和 微信*/
+				width: 80px;
+				height: 30px;
+				display: flex;
+				align-items: center;			/*后加上的*/
+				justify-content: center;			    
+			    }
+			strong{
+				color: white;
+				font-size: 20px;
+			    }
+			.subDiv2 img{
+			    	width: 32px;
+			    	height: 30px;
+			    }
+			#container7{
+				width: 100%;
+				height: 70px;
+				display: flex;
+				margin-top: 90px;
+				align-items: center;
+			}
+			.subDiv12{
+				height: 70px;
+				flex: 0.2;
+			}
+			.subDiv13{
+				height: 70px;
+				flex: 0.8;
+				display: flex;
+				align-items: center;
+			}
+			.subDiv14{
+				width: 105px;
+				height: 30px;
+				border-radius: 5px;
+				background-color: white;
+				margin-left: 7px;
+				display: flex;
+				align-items: center;
+			}
+			.subDiv12 img{
+				width: 60px;
+				height: 60px;
+			}
+			#container8{
+				width: 100%;
+				height: 70px;
+				display: flex;
+			}
+			.subDiv15{
+			flex: 0.8;
+			height: 70px;
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+			}
+			.subDiv16{
+			display: flex;
+			flex: 0.2;
+			height: 70px;
+			justify-content: center;
+			align-items: center;
+			}
+			.subDiv16 img{
+				width: 60px;
+				height: 60px;
+			}
+			.subDiv17{
+				display: flex;
+				width: 130px;
+				height: 30px;
+				background-color: white;
+				border-radius: 5px;
+				margin-right: 7px;
+				align-items: center;
+			}
+			#container9{
+				width: 100%;
+				height: 70px;
+				display: flex;
+				align-items: center;
+			}
+			.subDiv18{
+				width: 130px;
+				height: 30px;
+				border-radius: 5px;
+				background-color: white;
+				margin-left: 7px;
+				display: flex;
+				align-items: center;
+			}
+			/*#container10{
+			
+			}*/
+			#container11{
+				width: 100%;
+				height: 35px;
+				background-color: white;
+				display: flex;
+				position: absolute;
+				bottom: 0;
+				display: flex;
+				align-items: center;
+			}
+			#container11 img{
+				height: 30px;
+				width: 30px;
+			}
+			.lcon1{
+				flex: 0.1;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.lcon2{
+				height: 20px;
+				flex: 0.7;
+				border: 1px solid #F4F4F4;
+				border-radius: 5px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.lcon3{
+				flex: 0.1;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.lcon4{
+				flex: 0.1;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}

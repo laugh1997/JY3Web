@@ -1,0 +1,175 @@
+*{           /*去掉浏览器自带的内外边距*/
+				margin: 0;
+				padding: 0;
+			}
+			a{
+				text-decoration: none;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+			}
+				/*从这里开始是最上面信号拦的设置*/			
+			#container4{        
+				width: 100%;
+				height: 30px;
+				background-color: black;
+				display: flex;
+				justify-content: space-between;
+				position: fixed;
+				top: 0px;
+				z-index: 2;
+				color: white;
+			}
+			#left ul li{
+				width: 5px;
+				height: 5px;
+				border: 1px solid white;
+				border-radius: 50%;
+				display: flex;
+				margin-left:3px;
+			}
+			.havesin{                /* 这里是有信号的*/
+				background-color: white;
+			}
+			.nothavesin{					/*这里是无信号的*/
+				border: 1px solid white;
+			}
+			#center{               /*  这里是信号栏中间时间*/
+				flex: 0.2;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			#right{						/*这里是信号栏上面信号栏中最右边的*/
+				flex: 0.4;
+				display: flex;
+				justify-content: flex-end;
+				align-items: center;
+			}
+			#right span {
+				margin: 0 5px;
+			}
+			#right img{
+				width: 25px;
+				height: 25px;
+			}
+			#left ul{					/*这里是上面信号栏最左边的*/
+				display: flex;
+			}
+			#left{
+				flex: 0.4;
+				display: flex;
+				align-items: center;
+				margin-left: 10px;
+			    }
+			#left span{
+				font-size: 12px;
+				
+			}
+			#left img{
+				width: 23px;
+				height: 23px;
+			    }
+			    
+			    
+			    #container2{        /*这里是上面带有加号图片最大的div*/
+				width: 100%;
+				height: 50px;
+				/*border: 1px solid red;*/
+				display: flex;
+				justify-content: space-between;
+				background-color:white;
+				align-items: center;
+				position: fixed;
+				top: 20px;
+			    }
+			.subDiv2{       /*  上面div里面的 加号 和 微信*/
+				width: 50px;
+				height: 30px;
+				align-items: center;
+			    }
+			strong{
+				color: white;
+				font-size: 20px;
+			    }
+			.subDiv2 img{			
+				width: 30px;
+				height: 30px;
+			}
+			#container5{				/*这个里面是 图片没转成弹性容器*/
+				margin-top: 70px;
+				height: 150px;
+				width: 100%;
+				/*border: 1px solid black;*/
+			}
+			#container5 img{
+				width:375px;
+				height: 150px;
+			}
+			.container6{
+				width: 70px;
+				height: 65px;
+				position: absolute;
+				right: 17px;
+				top: 167px;
+			}
+			.container6 img{
+				width: 70px;
+				height: 65px;
+			}
+			.container7{
+				display: flex;
+				width: 100%;
+				height: 30px;
+				margin-top: 15px;
+				justify-content: flex-end;
+				align-items: center;
+			}
+			#subDiv8{
+				width: 300px;
+				height: 30px;
+			}
+			.container8{
+				width: 100%;
+				height: 200px;
+				display: flex;
+			}
+			.blank4{
+				width: 100%;
+				height: 30px;
+				background-color: white;
+			}
+			#subDiv9{
+				height:200px;
+				flex: 0.2;
+			}
+			#subDiv10{
+				height:200px;
+				flex: 0.8;
+				display: flex;
+				flex-wrap: wrap;
+			}
+			#subDiv11{
+				margin-top: 10px;
+				margin-left: 5px;
+				width: 100%;
+				height: 30px;
+				font-size: 20px;
+			}
+			#subDiv12{
+				width: 100%;
+				height: 65px;
+			}
+			#subDiv12 img{
+				width: 100%;
+				height: 65px;
+			}
+			#subDiv13{
+				width: 100%;
+				height: 130px;
+				display: flex;
+				flex-wrap: wrap;
+				margin-left: 5px;
+				font-size: 15px;
+				font-family: "微软雅黑";
+			}
