@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#container{			/*这个是带有下拉条最大的div*/
+	width: 100%;
+	height: 1300px;
+}
+#container1{			/*这里是顶部带有睿乐购图标的div*/
+	width: 100%;
+	height: 60px;
+}
+#container2{
+	width: 100%;
+	height: 50px;
+}
