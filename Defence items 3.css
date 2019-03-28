@@ -1,0 +1,188 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: #CCCCCC;
+}
+#titleDiv{
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.subDiv{
+	height: 60px;
+	flex: 0.2;
+	display: flex;
+	justify-content:flex-start;
+	align-items: center;
+}
+.subDiv img{
+	width: 30px;
+	height: 30px;
+}
+.subDiv1{
+	flex: 0.6;
+	height: 60px;
+	display: flex;
+	font-size: 25px;
+	font-weight: 1000;
+	justify-content: center;
+	align-items: center;
+}
+.subDiv2{			/*这是一个空的DIV*/
+	height: 60px;
+	flex: 0.2;
+	display: flex;
+}
+p{
+	text-align: center;
+	margin-top: 5px;
+}
+#container{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+#container1{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#container2{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+#container2 span{
+	margin-left: 35px;
+}
+#container3{
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content:flex-start;
+	align-items: center;
+}
+#container3 span{
+	margin-left: 7px;
+	font-size: 20px;
+	font-weight: 1000;
+}
+#container4{
+	 width: 100%;
+	 height: 50px;
+	 display: flex;
+	 align-items: center;
+	 justify-content: flex-start;
+}
+#container4 select{
+	width: 170px;
+	height: 30px;
+	background-color: white;
+	border-radius: 7px;
+}
+#container4 span{
+	font-size: 17px;
+	font-weight: 1000;
+	margin-left: 35px;
+}
+#container5{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+#container5 select{
+	width: 170px;
+	height: 30px;
+	background-color: white;
+	border-radius: 7px;
+}
+#container5 span{
+	font-size: 17px;
+	font-weight: 1000;
+	margin-left: 50px;
+}
+#container6{
+	width: 100%;
+	height: 93px;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+#container6 button{
+	background-color: #9999cc;
+	width: 100px;
+	height: 45px;
+	border-radius: 7px;
+	color: white;
+}
+input{
+	text-align: center;
+	background-color: white;
+	width:170px;
+	height: 30px;
+	border-radius: 7px;
+}
+#container7{
+	width: 100%;
+	height: 30px;
+	margin-left: 30px;
+	font-weight: 1000;
+}
+#container8{			/*这里是一个空的DIV*/
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+#container9{
+	width: 100%;
+	height: 75px;
+	background-color: #666666;
+}
+.subDiv3{
+	width: 100%;
+	height: 38px;
+	background-color: #666666;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 17px;
+}
+.subDiv4{
+	width: 100%;
+	height: 37px;
+	background-color: #666666;
+	display: flex;
+}
+.subDiv5{
+	flex: 0.3;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: #666666;
+}
+.subDiv5 img{
+	width: 30px;
+	height: 30px;
+	background-color: #666666;
+}
+.subDiv6{
+	flex: 0.7;
+	display: flex;
+	justify-content: flex-start;
+	align-items:center;
+	background-color: #666666;
+	font-weight: 1000;
+}

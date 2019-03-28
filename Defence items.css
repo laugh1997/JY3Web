@@ -2,15 +2,284 @@
 	margin: 0;
 	padding: 0;
 }
-#container{			/*这个是带有下拉条最大的div*/
-	width: 100%;
-	height: 1300px;
+a{
+	color: white;
 }
-#container1{			/*这里是顶部带有睿乐购图标的div*/
+#container{
+	width: 100%;
+	height: 1500px;
+}
+#container1{			
 	width: 100%;
 	height: 60px;
+	background-color: #CCCCCC;
+	display: flex;
 }
-#container2{
+.subDiv1{			/*这里是睿乐购图标的DIV*/
+	display: flex;
+	flex: 0.3;
+	height: 60px;
+	justify-content: center;
+	align-items: center;
+}
+.subDiv1 img{
+	height: 50px;
+	width: 100px;
+}
+.subDiv2{
+	display: flex;
+	flex: 0.5;
+	height: 60px;
+	align-items: center;
+	justify-content:flex-start;
+}
+.subDiv2 input{
+	height: 35px;
+	font-size: 17px;
+	width: 185px;
+	border-radius: 25px;
+	text-indent: 10px;
+}
+.subDiv3{
+	display: flex;
+	flex: 0.2;
+	height: 60px;
+	align-items: center;
+	justify-content:center;
+}
+.subDiv3 img{
+	width: 35px;
+	height: 44px;
+}
+#container2{				/*这里是带有卓尔不凡整个的DIV*/
 	width: 100%;
 	height: 50px;
+	background-color:#999999;
+}
+.subDiv4{
+	height: 25px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	margin-left: 7px;
+}
+.subDiv4 span{
+	font-size: 17px;	
+	font-weight: 1000;
+}
+.subDiv5{
+	height: 25px;
+	width: 100%;
+	display: flex;
+	color: white;
+	margin-left: 7px;
+	justify-content: space-between;
+}
+.subDiv-2{
+	margin-right: 17px;
+}
+.subDiv5 span{
+	font-size: 17px;	
+	font-weight: 500;
+}
+#container3{			/*这里是带有汽车图片的第一个DIV*/
+	width: 100%;
+	height: 200px;
+}
+#container3 img{
+	width: 100%;
+	height: 200px;
+}
+#container4{		/*这里是带有第一辆跑车价格的DIV*/
+	width: 100%;
+	height: 50px;
+	background-color:#999999;
+	display: flex;
+	justify-content:flex-start;
+	align-items: center;
+}
+#container4 span{
+    font-size: 22px;
+    color: white;
+	font-weight: 1000;
+	margin-left: 10px;
+}
+#container5{			/*这里是蓝色的跑车图片*/
+	width: 100%;
+	height: 200px;
+}
+#container5 img{
+	width: 100%;
+	height: 200px;
+}
+#container6{			/*这里是第二辆有跑车价格的DIV*/
+	width: 100%;
+	height: 50px;
+	background-color:#999999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: 1000;
+}
+#container7{
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+.subDiv6{
+	height: 200px;
+	width: 30%;
+}
+.subDiv6 img{
+	height: 200px;
+	width: 100%;
+}
+#container8{
+	width: 100%;
+	height: 50px;
+	background-color:#999999;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	color: white;
+	font-weight: 1000;
+}
+.subDiv7{
+	height: 50px;
+	width: 30%;
+}
+.subDiv7a{
+	height: 50px;
+	width: 30%;
+}
+.subDiv7b{
+	height: 50px;
+	width: 30%;
+}
+.subDiv8{
+	margin-left: 10px;
+	font-weight: 1000;
+}
+.subDiv9{
+	margin-left: 10px;
+	font-weight: 1000;
+}
+.subDiv10{
+	margin-left: 10px;
+	font-weight: 1000;
+}
+.subDiv11{
+	margin-left: 10px;
+	font-weight: 1000;
+}
+.subDiv12{
+	margin-left: 10px;
+	font-weight: 1000;
+}
+.subDiv13{
+	margin-left: 10px;
+	font-weight: 1000;
+}
+#container9{
+	width: 100%;
+	height: 100px;
+	background-color:#5E5E5E;
+}
+.subDiv14{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+.subDiv14 span{
+	margin-left: 10px;
+	font-size: 27px;
+	color: white;
+	font-weight: 1000;
+}
+.subDiv15{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+.subDiv15 span{
+	margin-left: 10px;
+	font-size: 20px;
+	color: white;
+	font-weight: 700;
+}
+#container10{
+	width: 100%;
+	height: 200px;
+}
+#container10 img{
+	width: 100%;
+	height: 200px;
+}
+#container11{
+	width: 100%;
+	height: 50px;
+	background-color: #999999;
+}
+.subDiv16{
+	width: 100%;
+	height: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: 1000;
+	font-size: 20px;
+}
+.subDiv17{
+	width: 100%;
+	height: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight:550;
+	font-size: 20px;
+}
+#container12{
+	width: 100%;
+	height: 90px;
+	background-color: #CCCCCC;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#container12 span{
+	font-size: 28px;
+	color: white;
+	font-weight: 1000;
+}
+#container13{		 /*  最下面的DIV*/
+	width: 100%;
+	height: 200px;
+	background-color: #CCCCCC;
+}
+.subDiv18{
+	display: flex;
+	width: 100%;
+	height: 80px;
+	justify-content: center;
+	align-items: center;
+}
+.subDiv18 span{
+	font-size:28px;
+	color: black;
+	font-weight: 1000;
+}
+.subDiv18 button{
+	width: 120px;
+	height: 50px;
+	border-radius: 10px;
+	background-color: #990066;
+	color: white;
+	font-size: 17px;
 }

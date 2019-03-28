@@ -1,0 +1,220 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#purchase{
+	width: 100%;
+	height: 18px;
+	background-color: #999999;
+	display: flex;
+	justify-content:flex-start;
+	align-items: center;
+}
+#purchase img{
+	height: 15px;
+	width: 27px;
+	margin-left: 7px ;
+}
+#purchase1{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: red;
+	height: 35px;
+	width: 80px;
+	border-radius: 10px;
+	color: white;
+}
+#purchase2{
+	width: 100%;
+	height: 200px;
+}
+#purchase2 img{
+	width: 100%;
+	height: 200px;
+}
+#purchase3{
+	width: 100%;
+	height: 50px;
+	background-color: #999999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 17px;
+	font-weight: 1000;
+}
+#purchase4{
+	width: 100%;
+	height: 350px;
+	display:flex;
+}
+.style1{
+	width: 35%;
+	height: 350px;
+}
+.blank{   /*这里添加了一个空的DIV*/
+	width: 100%;
+	height: 46px;
+	background-color:white;
+}
+.style1 img{
+	width: 100%;
+	height: 150px;
+}
+.style2{
+	width: 65%;
+	height: 200px;
+}
+.style3{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.style3 span{
+	font-weight: 900;
+	color: black;
+}
+.style4{
+	width: 100%;
+	height: 50px;
+	display: flex;
+}
+.left1{
+	flex: 0.3;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 17px;
+}
+.right1{
+	flex: 0.7;
+	height: 50px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 20px;
+	color: red;
+	font-weight: 1000;
+}
+#address-1{
+	width: 100%;
+	height: 50px;
+	display: flex;
+}
+#address-2{
+	display: 0.3;
+	display: flex;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+	font-size: 15px;
+}
+#address-3{
+	flex: 0.7;
+	display: flex;
+	align-items: center;
+}
+#address-3 select{
+	width: 150px;
+	height: 30px;
+	border-radius: 7px;
+}
+.roomcolor{
+	width: 100%;
+	height: 50px;
+	display: flex;
+}
+.roomcolor1{
+	flex: 0.4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.roomcolor2{
+	flex: 0.3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.color-left{
+	width: 30%;
+	height: 25px;
+	background-color: black;
+}
+.roomcolor3{
+	flex: 0.3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.color-right{
+	width: 30%;
+	height: 25px;
+	background-color:blue;
+}
+.purchase5{
+	width: 100%;
+	height: 50px;
+	display: flex;
+}
+.subDiv1{
+	flex: 0.4;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 17px;
+}
+.subDiv2{
+	flex: 0.3;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.subDiv3{
+	flex: 0.3;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.left-1{
+	width: 30%;
+	height: 25px;
+	background-color:#8B4513;
+	border: 1px solid black;
+}
+.right-1{
+	width: 30%;
+	height: 25px;
+	background-color:#000000;
+	border: 1px solid black;
+}
+.purchase6{
+	width: 100%;
+	height: 100px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.purchase6 button{
+	height: 45px;
+	width: 110px;
+	background-color: orangered;
+	color: white;
+	border-radius: 10px;
+	font-size: 17px;
+	font-weight: 1000;
+	
+}
