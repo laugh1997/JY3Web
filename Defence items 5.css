@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{		
+		color: gray;
+		text-decoration: none;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+			}
+#totalDiv{
+	width: 100%;
+	height: 1550px;
+}
+#container{			/*这里是最上面的DIV*/
+	width: 100%;
+	height: 80px;
+	display: flex;
+	background-color: white;
+	justify-content: space-between;
+	align-items: center;
+	position:fixed;
+}
+#subDiv1{
+	display: flex;
+	flex: 0.2;
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+}
+#subDiv1 img{
+	width: 70px;
+	height: 70px;
+}
+#subDiv2{
+	flex: 0.6;
+	height: 80px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+#subDiv2 input{
+	background-color: white;
+	width: 150px;
+	height: 35px;
+	border-radius: 10px;
+	display: flex;
+	text-indent: 10px;
+}
+#subDiv3{
+	display: flex;
+	height: 80px;
+	flex: 0.2;
+	justify-content:center;
+	align-items: center;
+}
+#subDiv3 img{
+	width: 35px;
+	height: 35px;
+}
+#container2{
+	width: 100%;
+	display: flex;
+	height: 70px;
+	position: fixed;
+	bottom: 0;
+	background-color: #CCCCCC;
+}
+#subDiv4{
+	width: 25%;
+	height: 70px;
+	text-align: center;
+}
+#container2 img{
+	widows: 35px;
+	height: 35px;
+}
+#container2 span{
+	display: block;
+}
+#subDiv5{
+	width: 25%;
+	height: 70px;
+	text-align: center;
+}
+#subDiv6{
+	width: 25%;
+	height: 70px;
+	text-align: center;
+}
+#subDiv7{
+	width: 25%;
+	height: 70px;
+	text-align: center;
+}
+#container3{		/*这里是一个空的div*/
+	width: 100%;
+	height: 80px;
+	border: 1px solid black;
+}
+.blank{		  	/*这里是一个灰色空DIV*/
+	width: 100%;
+	height: 30px;
+	background-color: #999999;
+}
+#container4{
+	width: 100%;
+	height: 250px;
+	display: flex;
+	text-align: center;
+}
+.subDiv8 img{
+	width: 90%;
+	height: 170px;
+	margin-top: 7px;
+}
+span{
+	display: block;
+	margin-top: 5px;
+}
+.price{
+	font-size: 17px;
+	color: red;
+}
+.subDiv8{
+	flex: 0.5;
+	height: 250px;
+}
+#container5{
+	width: 100%;
+	height: 250px;
+	display: flex;
+	text-align: center;
+}
+#container6{
+	width: 100%;
+	height: 250px;
+	display: flex;
+	text-align: center;
+}
+#subDiv9{
+	border-right: 1px solid gray;
+}
+#container7{
+	width: 100%;
+	height: 250px;
+	display: flex;
+	text-align: center;
+}
+#container8{
+	width: 100%;
+	height: 250px;
+	display: flex;
+	text-align: center;
+}
